@@ -1,0 +1,29 @@
+{
+  "name": "liqid",
+  "version": "1.0.0",
+  "description": "A Simple Command Line Application To Access Stock Information & Offers the option to share the information on another channel like email or",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "app": "bin/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mareeskannanr/stock-information-app.git"
+  },
+  "author": "MAREESKANNAN RAJENDRAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mareeskannanr/stock-information-app/issues"
+  },
+  "homepage": "https://github.com/mareeskannanr/stock-information-app#readme",
+  "dependencies": {
+    "mocha": "^6.0.2",
+    "nodemailer": "^5.1.1",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "sendmail": "^1.4.1"
+  }
+}
